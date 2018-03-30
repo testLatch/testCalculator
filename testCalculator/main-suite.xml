@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite">
+	<listeners>
+		<listener
+			class-name="CustomTestNGReporter.CustomTestNGReporter" />
+	</listeners>
+	<test verbose="2" name="Default test">
+		<classes>
+			<class name="com.latch.org.testCalculator.AdditionTest" />
+			<class name="com.latch.org.testCalculator.MultiplicationTest" />
+			<class name="com.latch.org.testCalculator.DivisionTest" />
+			<class name="com.latch.org.testCalculator.MeanOperationTest" />
+			<class name="com.latch.org.testCalculator.PowerOperationTest" />
+			<class name="com.latch.org.testCalculator.PrintRangeTest" />
+			<class name="com.latch.org.testCalculator.SquareRootTest" />
+			<class name="com.latch.org.testCalculator.SubtractionTest" />
+		</classes>
+	</test> <!-- Default test -->
+</suite> <!-- Default suite -->

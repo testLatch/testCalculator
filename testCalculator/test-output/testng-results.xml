@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="78" passed="78">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="269" started-at="2018-03-30T03:35:00Z" finished-at="2018-03-30T03:35:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="269" started-at="2018-03-30T03:35:00Z" finished-at="2018-03-30T03:35:00Z">
+      <class name="com.latch.org.testCalculator.AdditionTest">
+        <test-method status="PASS" signature="TestAddition1()[pri:0, instance:com.latch.org.testCalculator.AdditionTest@2344fc66]" name="TestAddition1" duration-ms="23" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAddition1 -->
+        <test-method status="PASS" signature="TestAddition2()[pri:0, instance:com.latch.org.testCalculator.AdditionTest@2344fc66]" name="TestAddition2" duration-ms="2" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAddition2 -->
+        <test-method status="PASS" signature="TestAddition3()[pri:0, instance:com.latch.org.testCalculator.AdditionTest@2344fc66]" name="TestAddition3" duration-ms="2" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAddition3 -->
+        <test-method status="PASS" signature="TestAddition4()[pri:0, instance:com.latch.org.testCalculator.AdditionTest@2344fc66]" name="TestAddition4" duration-ms="1" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAddition4 -->
+        <test-method status="PASS" signature="TestAddition5()[pri:0, instance:com.latch.org.testCalculator.AdditionTest@2344fc66]" name="TestAddition5" duration-ms="2" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAddition5 -->
+        <test-method status="PASS" signature="TestAddition6()[pri:0, instance:com.latch.org.testCalculator.AdditionTest@2344fc66]" name="TestAddition6" duration-ms="2" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAddition6 -->
+      </class> <!-- com.latch.org.testCalculator.AdditionTest -->
+      <class name="com.latch.org.testCalculator.DivisionTest">
+        <test-method status="PASS" signature="TestDivideByZero1()[pri:0, instance:com.latch.org.testCalculator.DivisionTest@5afa04c]" name="TestDivideByZero1" duration-ms="2" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestDivideByZero1 -->
+        <test-method status="PASS" signature="TestDivideByZero2()[pri:0, instance:com.latch.org.testCalculator.DivisionTest@5afa04c]" name="TestDivideByZero2" duration-ms="1" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestDivideByZero2 -->
+        <test-method status="PASS" signature="TestDivision1()[pri:0, instance:com.latch.org.testCalculator.DivisionTest@5afa04c]" name="TestDivision1" duration-ms="4" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestDivision1 -->
+        <test-method status="PASS" signature="TestDivision2()[pri:0, instance:com.latch.org.testCalculator.DivisionTest@5afa04c]" name="TestDivision2" duration-ms="1" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestDivision2 -->
+        <test-method status="PASS" signature="TestDivision3()[pri:0, instance:com.latch.org.testCalculator.DivisionTest@5afa04c]" name="TestDivision3" duration-ms="1" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestDivision3 -->
+        <test-method status="PASS" signature="TestDivision4()[pri:0, instance:com.latch.org.testCalculator.DivisionTest@5afa04c]" name="TestDivision4" duration-ms="2" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestDivision4 -->
+        <test-method status="PASS" signature="TestDivision5()[pri:0, instance:com.latch.org.testCalculator.DivisionTest@5afa04c]" name="TestDivision5" duration-ms="2" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestDivision5 -->
+        <test-method status="PASS" signature="TestDivision6()[pri:0, instance:com.latch.org.testCalculator.DivisionTest@5afa04c]" name="TestDivision6" duration-ms="1" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestDivision6 -->
+        <test-method status="PASS" signature="TestDivision7()[pri:0, instance:com.latch.org.testCalculator.DivisionTest@5afa04c]" name="TestDivision7" duration-ms="6" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestDivision7 -->
+        <test-method status="PASS" signature="TestDivision8()[pri:0, instance:com.latch.org.testCalculator.DivisionTest@5afa04c]" name="TestDivision8" duration-ms="1" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestDivision8 -->
+        <test-method status="PASS" signature="TestDivision9()[pri:0, instance:com.latch.org.testCalculator.DivisionTest@5afa04c]" name="TestDivision9" duration-ms="3" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestDivision9 -->
+      </class> <!-- com.latch.org.testCalculator.DivisionTest -->
+      <class name="com.latch.org.testCalculator.MultiplicationTest">
+        <test-method status="PASS" signature="TestMultiplication1()[pri:0, instance:com.latch.org.testCalculator.MultiplicationTest@458ad742]" name="TestMultiplication1" duration-ms="3" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMultiplication1 -->
+        <test-method status="PASS" signature="TestMultiplication2()[pri:0, instance:com.latch.org.testCalculator.MultiplicationTest@458ad742]" name="TestMultiplication2" duration-ms="3" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMultiplication2 -->
+        <test-method status="PASS" signature="TestMultiplication3()[pri:0, instance:com.latch.org.testCalculator.MultiplicationTest@458ad742]" name="TestMultiplication3" duration-ms="1" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMultiplication3 -->
+        <test-method status="PASS" signature="TestMultiplication4()[pri:0, instance:com.latch.org.testCalculator.MultiplicationTest@458ad742]" name="TestMultiplication4" duration-ms="1" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMultiplication4 -->
+        <test-method status="PASS" signature="TestMultiplication5()[pri:0, instance:com.latch.org.testCalculator.MultiplicationTest@458ad742]" name="TestMultiplication5" duration-ms="2" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMultiplication5 -->
+        <test-method status="PASS" signature="TestMultiplication6()[pri:0, instance:com.latch.org.testCalculator.MultiplicationTest@458ad742]" name="TestMultiplication6" duration-ms="2" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMultiplication6 -->
+        <test-method status="PASS" signature="TestMultiplication7()[pri:0, instance:com.latch.org.testCalculator.MultiplicationTest@458ad742]" name="TestMultiplication7" duration-ms="1" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMultiplication7 -->
+        <test-method status="PASS" signature="TestMultiplication8()[pri:0, instance:com.latch.org.testCalculator.MultiplicationTest@458ad742]" name="TestMultiplication8" duration-ms="2" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMultiplication8 -->
+      </class> <!-- com.latch.org.testCalculator.MultiplicationTest -->
+      <class name="com.latch.org.testCalculator.SubtractionTest">
+        <test-method status="PASS" signature="TestSutraction1()[pri:0, instance:com.latch.org.testCalculator.SubtractionTest@6ea12c19]" name="TestSutraction1" duration-ms="2" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSutraction1 -->
+        <test-method status="PASS" signature="TestSutraction2()[pri:0, instance:com.latch.org.testCalculator.SubtractionTest@6ea12c19]" name="TestSutraction2" duration-ms="1" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSutraction2 -->
+        <test-method status="PASS" signature="TestSutraction3()[pri:0, instance:com.latch.org.testCalculator.SubtractionTest@6ea12c19]" name="TestSutraction3" duration-ms="1" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSutraction3 -->
+        <test-method status="PASS" signature="TestSutraction4()[pri:0, instance:com.latch.org.testCalculator.SubtractionTest@6ea12c19]" name="TestSutraction4" duration-ms="2" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSutraction4 -->
+        <test-method status="PASS" signature="TestSutraction5()[pri:0, instance:com.latch.org.testCalculator.SubtractionTest@6ea12c19]" name="TestSutraction5" duration-ms="2" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSutraction5 -->
+        <test-method status="PASS" signature="TestSutraction6()[pri:0, instance:com.latch.org.testCalculator.SubtractionTest@6ea12c19]" name="TestSutraction6" duration-ms="1" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSutraction6 -->
+      </class> <!-- com.latch.org.testCalculator.SubtractionTest -->
+      <class name="com.latch.org.testCalculator.MeanOperationTest">
+        <test-method status="PASS" signature="TestMean1()[pri:0, instance:com.latch.org.testCalculator.MeanOperationTest@7921b0a2]" name="TestMean1" duration-ms="2" started-at="2018-03-29T23:35:00Z" description="Mean Operation TC1" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMean1 -->
+        <test-method status="PASS" signature="TestMean2()[pri:0, instance:com.latch.org.testCalculator.MeanOperationTest@7921b0a2]" name="TestMean2" duration-ms="2" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMean2 -->
+        <test-method status="PASS" signature="TestMean3()[pri:0, instance:com.latch.org.testCalculator.MeanOperationTest@7921b0a2]" name="TestMean3" duration-ms="2" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMean3 -->
+        <test-method status="PASS" signature="TestMean4()[pri:0, instance:com.latch.org.testCalculator.MeanOperationTest@7921b0a2]" name="TestMean4" duration-ms="1" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMean4 -->
+        <test-method status="PASS" signature="TestMean5()[pri:0, instance:com.latch.org.testCalculator.MeanOperationTest@7921b0a2]" name="TestMean5" duration-ms="2" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMean5 -->
+        <test-method status="PASS" signature="TestMean6()[pri:0, instance:com.latch.org.testCalculator.MeanOperationTest@7921b0a2]" name="TestMean6" duration-ms="1" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMean6 -->
+        <test-method status="PASS" signature="TestMean7()[pri:0, instance:com.latch.org.testCalculator.MeanOperationTest@7921b0a2]" name="TestMean7" duration-ms="3" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMean7 -->
+        <test-method status="PASS" signature="TestMeanWithNullInputs()[pri:0, instance:com.latch.org.testCalculator.MeanOperationTest@7921b0a2]" name="TestMeanWithNullInputs" duration-ms="2" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.latch.org.testCalculator.MeanOperationTest.TestMeanWithNullInputs(MeanOperationTest.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMeanWithNullInputs -->
+      </class> <!-- com.latch.org.testCalculator.MeanOperationTest -->
+      <class name="com.latch.org.testCalculator.PrintRangeTest">
+        <test-method status="PASS" signature="TestPrintRange1()[pri:0, instance:com.latch.org.testCalculator.PrintRangeTest@6574b225]" name="TestPrintRange1" duration-ms="5" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPrintRange1 -->
+        <test-method status="PASS" signature="TestPrintRange2()[pri:0, instance:com.latch.org.testCalculator.PrintRangeTest@6574b225]" name="TestPrintRange2" duration-ms="1" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPrintRange2 -->
+        <test-method status="PASS" signature="TestPrintRange4()[pri:0, instance:com.latch.org.testCalculator.PrintRangeTest@6574b225]" name="TestPrintRange4" duration-ms="1" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPrintRange4 -->
+      </class> <!-- com.latch.org.testCalculator.PrintRangeTest -->
+      <class name="com.latch.org.testCalculator.PowerOperationTest">
+        <test-method status="PASS" signature="TestPower1()[pri:0, instance:com.latch.org.testCalculator.PowerOperationTest@97e1986]" name="TestPower1" duration-ms="1" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPower1 -->
+        <test-method status="PASS" signature="TestPower10()[pri:0, instance:com.latch.org.testCalculator.PowerOperationTest@97e1986]" name="TestPower10" duration-ms="9" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPower10 -->
+        <test-method status="PASS" signature="TestPower12()[pri:0, instance:com.latch.org.testCalculator.PowerOperationTest@97e1986]" name="TestPower12" duration-ms="1" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPower12 -->
+        <test-method status="PASS" signature="TestPower13()[pri:0, instance:com.latch.org.testCalculator.PowerOperationTest@97e1986]" name="TestPower13" duration-ms="1" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPower13 -->
+        <test-method status="PASS" signature="TestPower14()[pri:0, instance:com.latch.org.testCalculator.PowerOperationTest@97e1986]" name="TestPower14" duration-ms="1" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPower14 -->
+        <test-method status="PASS" signature="TestPower15()[pri:0, instance:com.latch.org.testCalculator.PowerOperationTest@97e1986]" name="TestPower15" duration-ms="0" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPower15 -->
+        <test-method status="PASS" signature="TestPower16()[pri:0, instance:com.latch.org.testCalculator.PowerOperationTest@97e1986]" name="TestPower16" duration-ms="1" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPower16 -->
+        <test-method status="PASS" signature="TestPower17()[pri:0, instance:com.latch.org.testCalculator.PowerOperationTest@97e1986]" name="TestPower17" duration-ms="1" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPower17 -->
+        <test-method status="PASS" signature="TestPower18()[pri:0, instance:com.latch.org.testCalculator.PowerOperationTest@97e1986]" name="TestPower18" duration-ms="1" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPower18 -->
+        <test-method status="PASS" signature="TestPower19()[pri:0, instance:com.latch.org.testCalculator.PowerOperationTest@97e1986]" name="TestPower19" duration-ms="1" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPower19 -->
+        <test-method status="PASS" signature="TestPower2()[pri:0, instance:com.latch.org.testCalculator.PowerOperationTest@97e1986]" name="TestPower2" duration-ms="1" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPower2 -->
+        <test-method status="PASS" signature="TestPower21()[pri:0, instance:com.latch.org.testCalculator.PowerOperationTest@97e1986]" name="TestPower21" duration-ms="1" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPower21 -->
+        <test-method status="PASS" signature="TestPower22()[pri:0, instance:com.latch.org.testCalculator.PowerOperationTest@97e1986]" name="TestPower22" duration-ms="1" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPower22 -->
+        <test-method status="PASS" signature="TestPower23()[pri:0, instance:com.latch.org.testCalculator.PowerOperationTest@97e1986]" name="TestPower23" duration-ms="1" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPower23 -->
+        <test-method status="PASS" signature="TestPower24()[pri:0, instance:com.latch.org.testCalculator.PowerOperationTest@97e1986]" name="TestPower24" duration-ms="1" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPower24 -->
+        <test-method status="PASS" signature="TestPower25()[pri:0, instance:com.latch.org.testCalculator.PowerOperationTest@97e1986]" name="TestPower25" duration-ms="1" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPower25 -->
+        <test-method status="PASS" signature="TestPower26()[pri:0, instance:com.latch.org.testCalculator.PowerOperationTest@97e1986]" name="TestPower26" duration-ms="1" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPower26 -->
+        <test-method status="PASS" signature="TestPower27()[pri:0, instance:com.latch.org.testCalculator.PowerOperationTest@97e1986]" name="TestPower27" duration-ms="0" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPower27 -->
+        <test-method status="PASS" signature="TestPower28()[pri:0, instance:com.latch.org.testCalculator.PowerOperationTest@97e1986]" name="TestPower28" duration-ms="1" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPower28 -->
+        <test-method status="PASS" signature="TestPower29()[pri:0, instance:com.latch.org.testCalculator.PowerOperationTest@97e1986]" name="TestPower29" duration-ms="0" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPower29 -->
+        <test-method status="PASS" signature="TestPower3()[pri:0, instance:com.latch.org.testCalculator.PowerOperationTest@97e1986]" name="TestPower3" duration-ms="1" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPower3 -->
+        <test-method status="PASS" signature="TestPower30()[pri:0, instance:com.latch.org.testCalculator.PowerOperationTest@97e1986]" name="TestPower30" duration-ms="0" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPower30 -->
+        <test-method status="PASS" signature="TestPower31()[pri:0, instance:com.latch.org.testCalculator.PowerOperationTest@97e1986]" name="TestPower31" duration-ms="1" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPower31 -->
+        <test-method status="PASS" signature="TestPower32()[pri:0, instance:com.latch.org.testCalculator.PowerOperationTest@97e1986]" name="TestPower32" duration-ms="1" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPower32 -->
+        <test-method status="PASS" signature="TestPower4()[pri:0, instance:com.latch.org.testCalculator.PowerOperationTest@97e1986]" name="TestPower4" duration-ms="0" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPower4 -->
+        <test-method status="PASS" signature="TestPower5()[pri:0, instance:com.latch.org.testCalculator.PowerOperationTest@97e1986]" name="TestPower5" duration-ms="1" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPower5 -->
+        <test-method status="PASS" signature="TestPower6()[pri:0, instance:com.latch.org.testCalculator.PowerOperationTest@97e1986]" name="TestPower6" duration-ms="0" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPower6 -->
+        <test-method status="PASS" signature="TestPower7()[pri:0, instance:com.latch.org.testCalculator.PowerOperationTest@97e1986]" name="TestPower7" duration-ms="1" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPower7 -->
+        <test-method status="PASS" signature="TestPower8()[pri:0, instance:com.latch.org.testCalculator.PowerOperationTest@97e1986]" name="TestPower8" duration-ms="1" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPower8 -->
+        <test-method status="PASS" signature="TestPower9()[pri:0, instance:com.latch.org.testCalculator.PowerOperationTest@97e1986]" name="TestPower9" duration-ms="6" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPower9 -->
+      </class> <!-- com.latch.org.testCalculator.PowerOperationTest -->
+      <class name="com.latch.org.testCalculator.SquareRootTest">
+        <test-method status="PASS" signature="TestSquareRoot1()[pri:0, instance:com.latch.org.testCalculator.SquareRootTest@2669b199]" name="TestSquareRoot1" duration-ms="1" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSquareRoot1 -->
+        <test-method status="PASS" signature="TestSquareRoot2()[pri:0, instance:com.latch.org.testCalculator.SquareRootTest@2669b199]" name="TestSquareRoot2" duration-ms="1" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSquareRoot2 -->
+        <test-method status="PASS" signature="TestSquareRoot3()[pri:0, instance:com.latch.org.testCalculator.SquareRootTest@2669b199]" name="TestSquareRoot3" duration-ms="1" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSquareRoot3 -->
+        <test-method status="PASS" signature="TestSquareRoot4()[pri:0, instance:com.latch.org.testCalculator.SquareRootTest@2669b199]" name="TestSquareRoot4" duration-ms="2" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSquareRoot4 -->
+        <test-method status="PASS" signature="TestSquareRoot5()[pri:0, instance:com.latch.org.testCalculator.SquareRootTest@2669b199]" name="TestSquareRoot5" duration-ms="0" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSquareRoot5 -->
+        <test-method status="PASS" signature="TestSquareRoot6()[pri:0, instance:com.latch.org.testCalculator.SquareRootTest@2669b199]" name="TestSquareRoot6" duration-ms="1" started-at="2018-03-29T23:35:00Z" finished-at="2018-03-29T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSquareRoot6 -->
+      </class> <!-- com.latch.org.testCalculator.SquareRootTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

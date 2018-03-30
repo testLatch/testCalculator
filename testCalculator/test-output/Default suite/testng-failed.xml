@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <listeners>
+    <listener class-name="CustomTestNGReporter.CustomTestNGReporter"/>
+  </listeners>
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.latch.org.testCalculator.SquareRootTest">
+        <methods>
+          <include name="TestSquareRoot7"/>
+        </methods>
+      </class> <!-- com.latch.org.testCalculator.SquareRootTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

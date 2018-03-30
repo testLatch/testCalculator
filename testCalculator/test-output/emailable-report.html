@@ -1,0 +1,210 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">78</td><td class="numi">78</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Default test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="6">com.latch.org.testCalculator.AdditionTest</td><td><a href="#m1"><b>TestAddition1</b>  </a></td><td class="numi">1</td><td>1522380900641</td><td class="numi">23</td></tr><tr class="passedodd"><td><a href="#m2"><b>TestAddition2</b>  </a></td><td class="numi">1</td><td>1522380900666</td><td class="numi">2</td></tr><tr class="passedodd"><td><a href="#m3"><b>TestAddition3</b>  </a></td><td class="numi">1</td><td>1522380900670</td><td class="numi">2</td></tr><tr class="passedodd"><td><a href="#m4"><b>TestAddition4</b>  </a></td><td class="numi">1</td><td>1522380900674</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m5"><b>TestAddition5</b>  </a></td><td class="numi">1</td><td>1522380900677</td><td class="numi">2</td></tr><tr class="passedodd"><td><a href="#m6"><b>TestAddition6</b>  </a></td><td class="numi">1</td><td>1522380900680</td><td class="numi">2</td></tr>
+<tr class="passedeven"><td rowspan="8">com.latch.org.testCalculator.MultiplicationTest</td><td><a href="#m7"><b>TestMultiplication1</b>  </a></td><td class="numi">1</td><td>1522380900686</td><td class="numi">3</td></tr><tr class="passedeven"><td><a href="#m8"><b>TestMultiplication2</b>  </a></td><td class="numi">1</td><td>1522380900690</td><td class="numi">3</td></tr><tr class="passedeven"><td><a href="#m9"><b>TestMultiplication3</b>  </a></td><td class="numi">1</td><td>1522380900695</td><td class="numi">1</td></tr><tr class="passedeven"><td><a href="#m10"><b>TestMultiplication4</b>  </a></td><td class="numi">1</td><td>1522380900698</td><td class="numi">1</td></tr><tr class="passedeven"><td><a href="#m11"><b>TestMultiplication5</b>  </a></td><td class="numi">1</td><td>1522380900700</td><td class="numi">2</td></tr><tr class="passedeven"><td><a href="#m12"><b>TestMultiplication6</b>  </a></td><td class="numi">1</td><td>1522380900703</td><td class="numi">2</td></tr><tr class="passedeven"><td><a href="#m13"><b>TestMultiplication7</b>  </a></td><td class="numi">1</td><td>1522380900706</td><td class="numi">1</td></tr><tr class="passedeven"><td><a href="#m14"><b>TestMultiplication8</b>  </a></td><td class="numi">1</td><td>1522380900708</td><td class="numi">2</td></tr>
+<tr class="passedodd"><td rowspan="11">com.latch.org.testCalculator.DivisionTest</td><td><a href="#m15"><b>TestDivideByZero1</b>  </a></td><td class="numi">1</td><td>1522380900712</td><td class="numi">2</td></tr><tr class="passedodd"><td><a href="#m16"><b>TestDivideByZero2</b>  </a></td><td class="numi">1</td><td>1522380900715</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m17"><b>TestDivision1</b>  </a></td><td class="numi">1</td><td>1522380900718</td><td class="numi">4</td></tr><tr class="passedodd"><td><a href="#m18"><b>TestDivision2</b>  </a></td><td class="numi">1</td><td>1522380900723</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m19"><b>TestDivision3</b>  </a></td><td class="numi">1</td><td>1522380900726</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m20"><b>TestDivision4</b>  </a></td><td class="numi">1</td><td>1522380900728</td><td class="numi">2</td></tr><tr class="passedodd"><td><a href="#m21"><b>TestDivision5</b>  </a></td><td class="numi">1</td><td>1522380900731</td><td class="numi">2</td></tr><tr class="passedodd"><td><a href="#m22"><b>TestDivision6</b>  </a></td><td class="numi">1</td><td>1522380900735</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m23"><b>TestDivision7</b>  </a></td><td class="numi">1</td><td>1522380900737</td><td class="numi">6</td></tr><tr class="passedodd"><td><a href="#m24"><b>TestDivision8</b>  </a></td><td class="numi">1</td><td>1522380900744</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m25"><b>TestDivision9</b>  </a></td><td class="numi">1</td><td>1522380900747</td><td class="numi">3</td></tr>
+<tr class="passedeven"><td rowspan="8">com.latch.org.testCalculator.MeanOperationTest</td><td><a href="#m26"><b>TestMean1</b>  ("Mean Operation TC1")</a></td><td class="numi">1</td><td>1522380900753</td><td class="numi">2</td></tr><tr class="passedeven"><td><a href="#m27"><b>TestMean2</b>  </a></td><td class="numi">1</td><td>1522380900756</td><td class="numi">2</td></tr><tr class="passedeven"><td><a href="#m28"><b>TestMean3</b>  </a></td><td class="numi">1</td><td>1522380900760</td><td class="numi">2</td></tr><tr class="passedeven"><td><a href="#m29"><b>TestMean4</b>  </a></td><td class="numi">1</td><td>1522380900763</td><td class="numi">1</td></tr><tr class="passedeven"><td><a href="#m30"><b>TestMean5</b>  </a></td><td class="numi">1</td><td>1522380900766</td><td class="numi">2</td></tr><tr class="passedeven"><td><a href="#m31"><b>TestMean6</b>  </a></td><td class="numi">1</td><td>1522380900769</td><td class="numi">1</td></tr><tr class="passedeven"><td><a href="#m32"><b>TestMean7</b>  </a></td><td class="numi">1</td><td>1522380900771</td><td class="numi">3</td></tr><tr class="passedeven"><td><a href="#m33"><b>TestMeanWithNullInputs</b>  </a></td><td class="numi">1</td><td>1522380900778</td><td class="numi">2</td></tr>
+<tr class="passedodd"><td rowspan="30">com.latch.org.testCalculator.PowerOperationTest</td><td><a href="#m34"><b>TestPower1</b>  </a></td><td class="numi">1</td><td>1522380900788</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m35"><b>TestPower10</b>  </a></td><td class="numi">1</td><td>1522380900790</td><td class="numi">9</td></tr><tr class="passedodd"><td><a href="#m36"><b>TestPower12</b>  </a></td><td class="numi">1</td><td>1522380900800</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m37"><b>TestPower13</b>  </a></td><td class="numi">1</td><td>1522380900801</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m38"><b>TestPower14</b>  </a></td><td class="numi">1</td><td>1522380900803</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m39"><b>TestPower15</b>  </a></td><td class="numi">1</td><td>1522380900805</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m40"><b>TestPower16</b>  </a></td><td class="numi">1</td><td>1522380900806</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m41"><b>TestPower17</b>  </a></td><td class="numi">1</td><td>1522380900807</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m42"><b>TestPower18</b>  </a></td><td class="numi">1</td><td>1522380900809</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m43"><b>TestPower19</b>  </a></td><td class="numi">1</td><td>1522380900810</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m44"><b>TestPower2</b>  </a></td><td class="numi">1</td><td>1522380900812</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m45"><b>TestPower21</b>  </a></td><td class="numi">1</td><td>1522380900814</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m46"><b>TestPower22</b>  </a></td><td class="numi">1</td><td>1522380900816</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m47"><b>TestPower23</b>  </a></td><td class="numi">1</td><td>1522380900819</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m48"><b>TestPower24</b>  </a></td><td class="numi">1</td><td>1522380900821</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m49"><b>TestPower25</b>  </a></td><td class="numi">1</td><td>1522380900822</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m50"><b>TestPower26</b>  </a></td><td class="numi">1</td><td>1522380900824</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m51"><b>TestPower27</b>  </a></td><td class="numi">1</td><td>1522380900826</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m52"><b>TestPower28</b>  </a></td><td class="numi">1</td><td>1522380900827</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m53"><b>TestPower29</b>  </a></td><td class="numi">1</td><td>1522380900829</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m54"><b>TestPower3</b>  </a></td><td class="numi">1</td><td>1522380900830</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m55"><b>TestPower30</b>  </a></td><td class="numi">1</td><td>1522380900832</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m56"><b>TestPower31</b>  </a></td><td class="numi">1</td><td>1522380900833</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m57"><b>TestPower32</b>  </a></td><td class="numi">1</td><td>1522380900835</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m58"><b>TestPower4</b>  </a></td><td class="numi">1</td><td>1522380900837</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m59"><b>TestPower5</b>  </a></td><td class="numi">1</td><td>1522380900838</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m60"><b>TestPower6</b>  </a></td><td class="numi">1</td><td>1522380900840</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m61"><b>TestPower7</b>  </a></td><td class="numi">1</td><td>1522380900841</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m62"><b>TestPower8</b>  </a></td><td class="numi">1</td><td>1522380900845</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m63"><b>TestPower9</b>  </a></td><td class="numi">1</td><td>1522380900848</td><td class="numi">6</td></tr>
+<tr class="passedeven"><td rowspan="3">com.latch.org.testCalculator.PrintRangeTest</td><td><a href="#m64"><b>TestPrintRange1</b>  </a></td><td class="numi">1</td><td>1522380900857</td><td class="numi">5</td></tr><tr class="passedeven"><td><a href="#m65"><b>TestPrintRange2</b>  </a></td><td class="numi">1</td><td>1522380900864</td><td class="numi">1</td></tr><tr class="passedeven"><td><a href="#m66"><b>TestPrintRange4</b>  </a></td><td class="numi">1</td><td>1522380900866</td><td class="numi">1</td></tr>
+<tr class="passedodd"><td rowspan="6">com.latch.org.testCalculator.SquareRootTest</td><td><a href="#m67"><b>TestSquareRoot1</b>  </a></td><td class="numi">1</td><td>1522380900867</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m68"><b>TestSquareRoot2</b>  </a></td><td class="numi">1</td><td>1522380900869</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m69"><b>TestSquareRoot3</b>  </a></td><td class="numi">1</td><td>1522380900870</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m70"><b>TestSquareRoot4</b>  </a></td><td class="numi">1</td><td>1522380900872</td><td class="numi">2</td></tr><tr class="passedodd"><td><a href="#m71"><b>TestSquareRoot5</b>  </a></td><td class="numi">1</td><td>1522380900875</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m72"><b>TestSquareRoot6</b>  </a></td><td class="numi">1</td><td>1522380900876</td><td class="numi">1</td></tr>
+<tr class="passedeven"><td rowspan="6">com.latch.org.testCalculator.SubtractionTest</td><td><a href="#m73"><b>TestSutraction1</b>  </a></td><td class="numi">1</td><td>1522380900878</td><td class="numi">2</td></tr><tr class="passedeven"><td><a href="#m74"><b>TestSutraction2</b>  </a></td><td class="numi">1</td><td>1522380900881</td><td class="numi">1</td></tr><tr class="passedeven"><td><a href="#m75"><b>TestSutraction3</b>  </a></td><td class="numi">1</td><td>1522380900882</td><td class="numi">1</td></tr><tr class="passedeven"><td><a href="#m76"><b>TestSutraction4</b>  </a></td><td class="numi">1</td><td>1522380900884</td><td class="numi">2</td></tr><tr class="passedeven"><td><a href="#m77"><b>TestSutraction5</b>  </a></td><td class="numi">1</td><td>1522380900887</td><td class="numi">2</td></tr><tr class="passedeven"><td><a href="#m78"><b>TestSutraction6</b>  </a></td><td class="numi">1</td><td>1522380900889</td><td class="numi">1</td></tr>
+</table>
+<h1>Default test</h1>
+<h2 id="m1">com.latch.org.testCalculator.PowerOperationTest:TestPower5</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">com.latch.org.testCalculator.SquareRootTest:TestSquareRoot6</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">com.latch.org.testCalculator.SubtractionTest:TestSutraction5</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">com.latch.org.testCalculator.PowerOperationTest:TestPower13</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">com.latch.org.testCalculator.DivisionTest:TestDivideByZero1</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">com.latch.org.testCalculator.PrintRangeTest:TestPrintRange1</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">com.latch.org.testCalculator.MeanOperationTest:TestMean5</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">com.latch.org.testCalculator.PowerOperationTest:TestPower19</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">com.latch.org.testCalculator.MeanOperationTest:TestMean7</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">com.latch.org.testCalculator.SquareRootTest:TestSquareRoot1</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">com.latch.org.testCalculator.MeanOperationTest:TestMean3</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">com.latch.org.testCalculator.PowerOperationTest:TestPower31</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">com.latch.org.testCalculator.DivisionTest:TestDivision9</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">com.latch.org.testCalculator.MeanOperationTest:TestMeanWithNullInputs</h2>
+<div style="padding-left:3em">
+<p>null</p>
+com.latch.org.testCalculator.MeanOperationTest.TestMeanWithNullInputs(MeanOperationTest.java:48)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">com.latch.org.testCalculator.PowerOperationTest:TestPower14</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">com.latch.org.testCalculator.PowerOperationTest:TestPower15</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">com.latch.org.testCalculator.SubtractionTest:TestSutraction4</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">com.latch.org.testCalculator.DivisionTest:TestDivision7</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">com.latch.org.testCalculator.PowerOperationTest:TestPower24</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">com.latch.org.testCalculator.DivisionTest:TestDivision2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">com.latch.org.testCalculator.PowerOperationTest:TestPower17</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">com.latch.org.testCalculator.PowerOperationTest:TestPower21</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m23">com.latch.org.testCalculator.PowerOperationTest:TestPower3</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m24">com.latch.org.testCalculator.PowerOperationTest:TestPower30</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m25">com.latch.org.testCalculator.MultiplicationTest:TestMultiplication4</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m26">com.latch.org.testCalculator.SubtractionTest:TestSutraction6</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m27">com.latch.org.testCalculator.DivisionTest:TestDivision8</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m28">com.latch.org.testCalculator.PowerOperationTest:TestPower2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m29">com.latch.org.testCalculator.PrintRangeTest:TestPrintRange2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m30">com.latch.org.testCalculator.SubtractionTest:TestSutraction3</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m31">com.latch.org.testCalculator.DivisionTest:TestDivideByZero2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m32">com.latch.org.testCalculator.PowerOperationTest:TestPower22</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m33">com.latch.org.testCalculator.PowerOperationTest:TestPower4</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m34">com.latch.org.testCalculator.MeanOperationTest:TestMean4</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m35">com.latch.org.testCalculator.PowerOperationTest:TestPower7</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m36">com.latch.org.testCalculator.AdditionTest:TestAddition4</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m37">com.latch.org.testCalculator.AdditionTest:TestAddition6</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m38">com.latch.org.testCalculator.AdditionTest:TestAddition3</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m39">com.latch.org.testCalculator.MultiplicationTest:TestMultiplication3</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m40">com.latch.org.testCalculator.MultiplicationTest:TestMultiplication1</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m41">com.latch.org.testCalculator.PowerOperationTest:TestPower6</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m42">com.latch.org.testCalculator.SquareRootTest:TestSquareRoot5</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m43">com.latch.org.testCalculator.PowerOperationTest:TestPower28</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m44">com.latch.org.testCalculator.PowerOperationTest:TestPower12</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m45">com.latch.org.testCalculator.MultiplicationTest:TestMultiplication8</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m46">com.latch.org.testCalculator.AdditionTest:TestAddition5</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m47">com.latch.org.testCalculator.PowerOperationTest:TestPower29</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m48">com.latch.org.testCalculator.PowerOperationTest:TestPower27</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m49">com.latch.org.testCalculator.MeanOperationTest:TestMean1</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m50">com.latch.org.testCalculator.PowerOperationTest:TestPower26</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m51">com.latch.org.testCalculator.PowerOperationTest:TestPower32</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m52">com.latch.org.testCalculator.MeanOperationTest:TestMean2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m53">com.latch.org.testCalculator.SquareRootTest:TestSquareRoot2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m54">com.latch.org.testCalculator.PowerOperationTest:TestPower9</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m55">com.latch.org.testCalculator.SquareRootTest:TestSquareRoot3</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m56">com.latch.org.testCalculator.PowerOperationTest:TestPower16</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m57">com.latch.org.testCalculator.PowerOperationTest:TestPower25</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m58">com.latch.org.testCalculator.PowerOperationTest:TestPower23</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m59">com.latch.org.testCalculator.PowerOperationTest:TestPower8</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m60">com.latch.org.testCalculator.SubtractionTest:TestSutraction1</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m61">com.latch.org.testCalculator.PowerOperationTest:TestPower10</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m62">com.latch.org.testCalculator.MultiplicationTest:TestMultiplication2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m63">com.latch.org.testCalculator.AdditionTest:TestAddition1</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m64">com.latch.org.testCalculator.DivisionTest:TestDivision4</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m65">com.latch.org.testCalculator.PowerOperationTest:TestPower18</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m66">com.latch.org.testCalculator.PrintRangeTest:TestPrintRange4</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m67">com.latch.org.testCalculator.DivisionTest:TestDivision6</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m68">com.latch.org.testCalculator.DivisionTest:TestDivision5</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m69">com.latch.org.testCalculator.PowerOperationTest:TestPower1</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m70">com.latch.org.testCalculator.MeanOperationTest:TestMean6</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m71">com.latch.org.testCalculator.MultiplicationTest:TestMultiplication6</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m72">com.latch.org.testCalculator.MultiplicationTest:TestMultiplication7</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m73">com.latch.org.testCalculator.AdditionTest:TestAddition2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m74">com.latch.org.testCalculator.MultiplicationTest:TestMultiplication5</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m75">com.latch.org.testCalculator.SubtractionTest:TestSutraction2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m76">com.latch.org.testCalculator.DivisionTest:TestDivision3</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m77">com.latch.org.testCalculator.DivisionTest:TestDivision1</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m78">com.latch.org.testCalculator.SquareRootTest:TestSquareRoot4</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>
